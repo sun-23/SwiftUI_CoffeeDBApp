@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		A4FD617F22DF08F60046D82D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD617E22DF08F60046D82D /* AppDelegate.swift */; };
 		A4FD618122DF08F60046D82D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD618022DF08F60046D82D /* SceneDelegate.swift */; };
-		A4FD618322DF08F60046D82D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD618222DF08F60046D82D /* ContentView.swift */; };
+		A4FD618322DF08F60046D82D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD618222DF08F60046D82D /* Home.swift */; };
 		A4FD618522DF08F70046D82D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FD618422DF08F70046D82D /* Assets.xcassets */; };
 		A4FD618822DF08F70046D82D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FD618722DF08F70046D82D /* Preview Assets.xcassets */; };
 		A4FD618B22DF08F70046D82D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FD618922DF08F70046D82D /* LaunchScreen.storyboard */; };
+		A4FD619322DF09440046D82D /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = A4FD619222DF09440046D82D /* drinks.json */; };
+		A4FD619522DF096A0046D82D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD619422DF096A0046D82D /* Data.swift */; };
+		A4FD619722DF09E50046D82D /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD619622DF09E50046D82D /* Drink.swift */; };
+		A4FD619922DF0B230046D82D /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD619822DF0B230046D82D /* DrinkItem.swift */; };
+		A4FD619B22DF0E750046D82D /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD619A22DF0E750046D82D /* DrinkRow.swift */; };
+		A4FD619D22DF132C0046D82D /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD619C22DF132C0046D82D /* DrinkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A4FD617B22DF08F60046D82D /* CoffeeDBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeDBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FD617E22DF08F60046D82D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4FD618022DF08F60046D82D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4FD618222DF08F60046D82D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4FD618222DF08F60046D82D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		A4FD618422DF08F70046D82D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4FD618722DF08F70046D82D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A4FD618A22DF08F70046D82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4FD618C22DF08F70046D82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FD619222DF09440046D82D /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
+		A4FD619422DF096A0046D82D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		A4FD619622DF09E50046D82D /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		A4FD619822DF0B230046D82D /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
+		A4FD619A22DF0E750046D82D /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
+		A4FD619C22DF132C0046D82D /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +69,14 @@
 			isa = PBXGroup;
 			children = (
 				A4FD617E22DF08F60046D82D /* AppDelegate.swift */,
+				A4FD619422DF096A0046D82D /* Data.swift */,
 				A4FD618022DF08F60046D82D /* SceneDelegate.swift */,
-				A4FD618222DF08F60046D82D /* ContentView.swift */,
+				A4FD618222DF08F60046D82D /* Home.swift */,
+				A4FD619822DF0B230046D82D /* DrinkItem.swift */,
+				A4FD619C22DF132C0046D82D /* DrinkDetail.swift */,
+				A4FD619A22DF0E750046D82D /* DrinkRow.swift */,
+				A4FD619622DF09E50046D82D /* Drink.swift */,
+				A4FD619222DF09440046D82D /* drinks.json */,
 				A4FD618422DF08F70046D82D /* Assets.xcassets */,
 				A4FD618922DF08F70046D82D /* LaunchScreen.storyboard */,
 				A4FD618C22DF08F70046D82D /* Info.plist */,
@@ -135,6 +153,7 @@
 			files = (
 				A4FD618B22DF08F70046D82D /* LaunchScreen.storyboard in Resources */,
 				A4FD618822DF08F70046D82D /* Preview Assets.xcassets in Resources */,
+				A4FD619322DF09440046D82D /* drinks.json in Resources */,
 				A4FD618522DF08F70046D82D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,7 +167,12 @@
 			files = (
 				A4FD617F22DF08F60046D82D /* AppDelegate.swift in Sources */,
 				A4FD618122DF08F60046D82D /* SceneDelegate.swift in Sources */,
-				A4FD618322DF08F60046D82D /* ContentView.swift in Sources */,
+				A4FD619B22DF0E750046D82D /* DrinkRow.swift in Sources */,
+				A4FD618322DF08F60046D82D /* Home.swift in Sources */,
+				A4FD619722DF09E50046D82D /* Drink.swift in Sources */,
+				A4FD619522DF096A0046D82D /* Data.swift in Sources */,
+				A4FD619922DF0B230046D82D /* DrinkItem.swift in Sources */,
+				A4FD619D22DF132C0046D82D /* DrinkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
